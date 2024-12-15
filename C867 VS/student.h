@@ -7,6 +7,7 @@
 
 #pragma once
 #include <iostream>
+#include <iomanip>
 #include "degree.h"
 using std::string;
 using std::cout;
@@ -23,4 +24,29 @@ private:
 	int age;
 	int daysToComplete[daysArraySize];
 	DegreeProgram degreeProgram;
+public:
+	Student();
+	Student(string studentID, string firtName, string lastName, string emailAddress, int age, int daysToComplete[], DegreeProgram degreeProgram);
+	~Student();
+
+	string getStudentID();
+	string getFirstName();
+	string getLastName();
+	string getEmailAddress();
+	int getAge();
+	int getDaysToComplete();
+	DegreeProgram getDegreeProgram();
+
+	void setStudentID(string studentID);
+	void setFirstName(string firstName);
+	void setLastName(string lastName);
+	void setEmailAddress(string emailAddress);
+	void setAge(int age);
+	void setDaysToComplete(int daysToComplete[]);
+	void setDegreeProgram(DegreeProgram degreeProgram);
+
+	static void printHeader();
+
+	void print();
+	
 };
