@@ -26,7 +26,7 @@ private:
 	DegreeProgram degreeProgram;
 public:
 	Student();
-	Student(string studentID, string firtName, string lastName, string emailAddress, int age, int daysToComplete[], DegreeProgram degreeProgram);
+	Student(string studentID, string firstName, string lastName, string emailAddress, int age, int daysToComplete[], DegreeProgram degreeProgram);
 	~Student();
 
 	string getStudentID();

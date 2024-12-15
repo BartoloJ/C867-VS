@@ -16,3 +16,15 @@ Student::Student()
 	this->degreeProgram = DegreeProgram::SECURITY;
 	
 }
+
+Student::Student(string studentID, string firstName, string lastName, string emailAddress, int age, int daysToComplete[], DegreeProgram degreeProgram)
+{
+	this->studentID = studentID;
+	this->firstName = firstName;
+	this->lastName = lastName;
+	this->emailAddress = emailAddress;
+	this->age = age;
+	for (int i = 0; i < daysArraySize; i++) this->daysToComplete[i] = daysToComplete[i];
+	this->degreeProgram = degreeProgram;
+
+}
