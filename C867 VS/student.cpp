@@ -28,3 +28,5 @@ Student::Student(string studentID, string firstName, string lastName, string ema
 	this->degreeProgram = degreeProgram;
 
 }
+
+Student::~Student() {}
