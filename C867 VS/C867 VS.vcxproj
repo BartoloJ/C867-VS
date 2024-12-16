@@ -104,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>/c867 vs</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -128,13 +129,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\Downloads\C867-main\C867\roster.cpp" />
-    <ClCompile Include="..\..\..\..\Downloads\C867-main\C867\student.cpp" />
     <ClCompile Include="C867 VS.cpp" />
+    <ClCompile Include="student.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Downloads\C867-main\C867\degree.h" />
-    <ClInclude Include="..\..\..\..\Downloads\C867-main\C867\roster.h" />
-    <ClInclude Include="..\..\..\..\Downloads\C867-main\C867\student.h" />
+    <ClInclude Include="degree.h" />
+    <ClInclude Include="roster.h" />
+    <ClInclude Include="student.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

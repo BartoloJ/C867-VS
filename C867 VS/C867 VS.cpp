@@ -2,12 +2,10 @@
 //
 
 #include <iostream>
-#include "roster.h"
 
 int main()
 {
     std::cout << "Hello World!\n";
-    Roster roster;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

@@ -21,18 +21,18 @@
     <ClCompile Include="..\..\..\..\Downloads\C867-main\C867\roster.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\C867-main\C867\student.cpp">
+    <ClCompile Include="student.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Downloads\C867-main\C867\degree.h">
+    <ClInclude Include="roster.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\C867-main\C867\roster.h">
+    <ClInclude Include="degree.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\C867-main\C867\student.h">
+    <ClInclude Include="student.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

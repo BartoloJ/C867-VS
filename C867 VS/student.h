@@ -34,7 +34,7 @@ public:
 	string getLastName();
 	string getEmailAddress();
 	int getAge();
-	int getDaysToComplete();
+	int* getDaysToComplete();
 	DegreeProgram getDegreeProgram();
 
 	void setStudentID(string studentID);

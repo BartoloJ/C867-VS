@@ -36,7 +36,7 @@ string Student::getFirstName() { return this->firstName; }
 string Student::getLastName() { return this->lastName; }
 string Student::getEmailAddress() { return this->emailAddress; }
 int Student::getAge() { return this->age; }
-int Student::getDaysToComplete() { return this->daysToComplete; }
+int* Student::getDaysToComplete() { return this->daysToComplete; }
 DegreeProgram Student::getDegreeProgram() { return this->degreeProgram; }
 
 void Student::setStudentID(string studentID) { this->studentID = studentID; }
@@ -52,7 +52,7 @@ void Student::setDegreeProgram(DegreeProgram degreeProgram) { this->degreeProgra
 
 void Student::printHeader()
 {
-	cout << "Output format: StudentID|First Name|Last Name|Email|Age|Days|Degree\n"
+	cout << "Output format: StudentID|First Name|Last Name|Email|Age|Days|Degree\n";
 }
 
 void Student::print()
