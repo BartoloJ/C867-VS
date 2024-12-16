@@ -18,10 +18,10 @@
     <ClCompile Include="C867 VS.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\C867-main\C867\roster.cpp">
+    <ClCompile Include="student.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="student.cpp">
+    <ClCompile Include="roster.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

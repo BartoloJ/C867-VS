@@ -129,8 +129,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Downloads\C867-main\C867\roster.cpp" />
     <ClCompile Include="C867 VS.cpp" />
+    <ClCompile Include="roster.cpp" />
     <ClCompile Include="student.cpp" />
   </ItemGroup>
   <ItemGroup>
