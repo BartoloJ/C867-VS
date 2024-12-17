@@ -54,3 +54,20 @@ void Roster::add(string sID, string sFirstName, string sLastName, string sEmailA
 	int darr[3] = { sDays1, sDays2, sDays3 };
 	studentRosterArray[++lastIndex] = new Student(sID, sFirstName, sLastName, sEmailAddress, sAge, darr, dp);
 }
+
+void Roster::printAll()
+{
+	Student::printHeader();
+	for (int i = 0; i <= Roster::lastIndex; i++)
+	{
+		cout << studentRosterArray[i]->getStudentID(); cout << '\t';
+		cout << studentRosterArray[i]->getFirstName(); cout << '\t';
+		cout << studentRosterArray[i]->getLastName(); cout << '\t';
+		cout << studentRosterArray[i]->getEmailAddress(); cout << '\t';
+		cout << studentRosterArray[i]->getAge(); cout << '\t';
+		cout << studentRosterArray[i]->getDaysToComplete()[0]; cout << '\t';
+		cout << studentRosterArray[i]->getDaysToComplete()[1]; cout << '\t';
+		cout << studentRosterArray[i]->getDaysToComplete()[2]; cout << '\t';
+		cout << degreeProgramTypeStrings[studentRosterArray[i]->getDegreeProgram()] << std::endl;
+	}
+}
